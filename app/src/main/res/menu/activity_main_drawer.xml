@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_addnew"
+            android:icon="@android:drawable/ic_input_add"
+            android:title="Generate New " />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@android:drawable/btn_star_big_on"
+            android:title="About" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+        </menu>
+    </item>
+
+    <item android:title="FakeNameGeneratorV1.0">
+
+    </item>
+</menu>
